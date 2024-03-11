@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="wrapper">
+    <div class="calculator-container">
+      <div class="input-container">
+        <div class="input-item">
+          <label for="dayInput">Day</label>
+          <input type="number" placeholder="DD" class="dayInput">
+          <small class="dayError">This field is required</small>
+        </div>
+
+        <div class="input-item">
+          <label for="monthInput">Month</label>
+          <input type="number" placeholder="MM" class="monthInput">
+          <small class="monthError">This field is required</small>
+        </div>
+
+        <div class="input-item">
+          <label for="yearInput">Your</label>
+          <input type="number" placeholder="YYYY" class="yearInput">
+          <small class="yearError">This field is required</small>
+        </div>
+      </div>
+
+      <div class="divider">
+        <hr>
+        <button class="calculate-btn">
+          <img src="assets/images/icon-arrow.svg" alt="" aria-hidden="true">
+        </button>
+      </div>
+
+      <div class="output-container">
+        <p><span class="yearOutput">--</span> years</p>
+        <p><span class="monthOutput">--</span> months</p>
+        <p><span class="dayOutput">--</span> days</p>
+      </div>
+
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

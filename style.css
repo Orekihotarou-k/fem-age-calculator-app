@@ -39,6 +39,7 @@ body {
     font-weight: var(--fw-400);
     line-height: 1.1;
     color: var(--clr-neutral-Off-black);
+    background: var(--clr-neutral-Off-white);
 }
 
 
